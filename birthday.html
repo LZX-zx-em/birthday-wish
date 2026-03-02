@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐🎂</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Microsoft YaHei", sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .birthday-card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        .title {
+            color: #e63946;
+            font-size: 32px;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+        .message {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #333;
+            margin: 30px 0;
+        }
+        .footer {
+            color: #666;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <div class="birthday-card">
+        <h1 class="title">生日快乐 🎉</h1>
+        <div class="message">
+            <!-- 这里替换成你自己的文案 -->
+            亲爱的老姐：<br>
+            愿你的每一天都像生日一样快乐，<br>
+            所有的美好和幸运都围绕着你，<br>
+            新的一岁，平安喜乐，万事顺意！
+        </div>
+        <div class="footer">
+            ✨ 专属生日祝福 ✨
+        </div>
+    </div>
+</body>
+</html>
